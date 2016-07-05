@@ -1,0 +1,16 @@
+{
+  "name": "pocket-archive-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nightwatch -t ./index.js"
+  },
+  "author": "Yuren Ju <yurenju@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "nightwatch": "^0.9.5"
+  }
+}
